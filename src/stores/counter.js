@@ -27,6 +27,14 @@ const useCount = defineStore("counter", {
 
       return `name: ${userStore.name}-count: ${state.count}`
     }
+  },
+  actions: {
+    increment() {
+      this.count++
+    },
+    incrementNum(num) {
+      this.count += num
+    }
   }
 })
 

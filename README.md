@@ -1,4 +1,6 @@
-# 04_pinia
+# 04_pinia_practice
+
+## this is just a practice repo for pinia
 
 ## Project setup
 ```
